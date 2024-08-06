@@ -1,0 +1,75 @@
+# .gitignore uses glob patterns instead of regex
+
+# file names without extension
+*
+!*.*
+!*/
+
+# names with special characters
+*#*
+*~*
+
+# names with given extension
+*.a
+*.app
+*.autobak
+*.class
+*.d
+*.dll
+*.dylib
+*.exe
+*.gch
+*.gz
+*.l.cc
+*.la
+*.lai
+*.lib
+*.lo
+*.log
+*.mod
+*.o
+*.obj
+*.orig
+*.out
+*.output
+*.pb.h
+*.pb.cc
+*.pch
+*.pyc
+*.slo
+*.smod
+*.so
+*.tab.c
+*.tab.h
+*.tab.cc
+*.tab.hh
+*.tar
+*.tgz
+*.xz
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
+# build directory of Gradle, CMake etc
+tmp
+build*/
+cmake-build-*
+.idea
+
+# ignore binary floder
+bin
+
+# ignore compilation configure file
+src/bin/compilation_config.h
+src/bin/compilation_config.cppm
+
+# ignore vscode config file
+.vscode/
+
+# ignore vscode clangd cache file
+.cache/
+
+# ignore macOS system files
+.DS_Store
+
